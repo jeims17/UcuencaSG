@@ -1,5 +1,5 @@
 <?php
-namespace SG\common;
+namespace SG\Common;
 
 
 class UsuarioException extends \Exception {

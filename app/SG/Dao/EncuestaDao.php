@@ -1,6 +1,6 @@
 <?php
 
-namespace SG\dao;
+namespace SG\Dao;
 
 use app\dao\Database;
 use SG\common\UsuarioException;

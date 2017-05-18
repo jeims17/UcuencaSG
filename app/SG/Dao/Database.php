@@ -1,6 +1,6 @@
 <?php
-namespace app\dao;
-define('CONFIG_FILE', __DIR__ . '/../../../config/database.json');
+namespace app\DAO;
+define('CONFIG_FILE', __DIR__ . '/../../../config/config.json');
 
 class Database
 {

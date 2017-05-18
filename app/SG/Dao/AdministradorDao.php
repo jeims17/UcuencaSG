@@ -1,9 +1,9 @@
 <?php
 
-namespace SG\dao;
+namespace SG\Dao;
 
-use SG\common\UsuarioException;
-use app\dao\Database;
+use SG\Common\UsuarioException;
+use app\Dao\Database;
 
 class AdministradorDao{
     private $data_base;

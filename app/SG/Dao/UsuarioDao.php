@@ -1,4 +1,4 @@
-<?php namespace app\SG\Dao;
+<?php namespace app\Dao;
 
 class UsuarioDao{
 
