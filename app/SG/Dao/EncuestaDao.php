@@ -1,4 +1,9 @@
-<?php namespace app\SG\Dao;
+<?php
+
+namespace SG\dao;
+
+use app\dao\Database;
+use SG\common\UsuarioException;
 
 class EncuestaDao{
 
@@ -9,7 +14,7 @@ class EncuestaDao{
 
     private function __construct(){
         $this->database = new Database();
-        $this->database->connect();
+        $this->database->select();
     }
 
     //Método para obtener la instancia de la clase.
@@ -33,7 +38,7 @@ class EncuestaDao{
                 null
             );
         if (count($encuesta) === 0){
-            throw new AlucException(
+            throw new UsuarioException(
                 Database::getMgs(5000,$this->getModel()),
                 "la encuesta no se encuentra en la base de datos"
             );

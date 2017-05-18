@@ -1,4 +1,5 @@
-<?php namespace app\SG\Dao;
+<?php
+namespace app\dao;
 define('CONFIG_FILE', __DIR__ . '/../../../config/database.json');
 
 class Database
@@ -140,12 +141,7 @@ class Database
     }
 
     //Método para actualizar los registros de la tabla
-    public function actualizar(
-        $nombre_tabla,
-        $columnas,
-        $where
-
-    )
+    public function actualizar($nombre_tabla, $columnas, $where)
     {
         $sql = "UPDATE {$nombre_tabla}";
         $columnas_set = array();
@@ -167,10 +163,7 @@ class Database
     }
 
     //Método para capturas de código de errores
-    public static function getMgs(
-        $code,
-        $data
-    )
+    public static function getMgs($code, $data)
     {
         switch ($code) {
             // Clave foránea no existente

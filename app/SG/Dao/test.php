@@ -6,8 +6,9 @@
  * Time: 0:47
  */
 
-namespace app\SG\Dao;
+namespace SG\Dao;
 include_once "Database.php";
+
 
 $test = new Database();
 
