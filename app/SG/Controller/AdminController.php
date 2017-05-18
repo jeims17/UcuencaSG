@@ -1,6 +1,7 @@
 <?php
 use vista\Vista;
-use app\SG\model\Administrador;
+use app\SG\Model\Administrador;
+use SG\Dao\Database;
 
 	class AdminController {
 
