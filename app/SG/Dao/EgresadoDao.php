@@ -1,8 +1,8 @@
 <?php
 
-namespace app\Dao;
+namespace SG\Dao;
 
-use SG\common\UsuarioException;
+use SG\Common\UsuarioException;
 
 class EgresadoDao{
 

@@ -7,6 +7,7 @@
  */
 
 namespace SG\Dao;
+
 include_once "Database.php";
 
 
@@ -16,7 +17,7 @@ $order_by = null;
 
 $test->conectar();
 
-$array_valores = ["idUsuario" => "1111111111", "nombre" => "cristhian", "apellido" => "hernandez","cedula" => "1111111111" ,"contrasenia" => "1111111111","rol" => "user" ,"correo" => "hernandez"];
+$array_valores = ["idUsuario" => "1111111112", "nombre" => "diego", "apellido" => "hernandez","cedula" => "1111111111" ,"contrasenia" => "1111111111","rol" => "user" ,"correo" => "hernandez"];
 $test->insertar('usuario', $array_valores);
 
 $list_usuario = $test->select(

@@ -1,5 +1,5 @@
 <?php
-namespace app\DAO;
+namespace SG\Dao;
 define('CONFIG_FILE', __DIR__ . '/../../../config/config.json');
 
 class Database

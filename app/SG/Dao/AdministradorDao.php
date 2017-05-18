@@ -3,7 +3,7 @@
 namespace SG\Dao;
 
 use SG\Common\UsuarioException;
-use app\Dao\Database;
+
 
 class AdministradorDao{
     private $data_base;

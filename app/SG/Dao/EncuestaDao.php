@@ -2,7 +2,6 @@
 
 namespace SG\Dao;
 
-use app\dao\Database;
 use SG\common\UsuarioException;
 
 class EncuestaDao{
@@ -14,7 +13,7 @@ class EncuestaDao{
 
     private function __construct(){
         $this->database = new Database();
-        $this->database->select();
+        $this->database->conectar();
     }
 
     //Método para obtener la instancia de la clase.
@@ -32,7 +31,7 @@ class EncuestaDao{
         $where = "idEncuesta = " . "'" . $id . "'";
         $encuesta = $this->database
             ->select(
-                "encuesta",
+                "Encuesta",
                 "*",
                 $where,
                 null
@@ -57,7 +56,7 @@ class EncuestaDao{
 
         $lista_encuestas = $this->database
             ->select(
-                "encuestas",
+                "Encuesta",
                 "*",
                 null,
                 $order_by
@@ -76,7 +75,7 @@ class EncuestaDao{
 
         $lista_encuestas = $this->database
             ->select(
-                "repuesta",
+                "Respuesta",
                 "*",
                 null,
                 $order_by
@@ -101,7 +100,7 @@ class EncuestaDao{
     }
     private function getModel(){
         return [
-            'elemento_null' => ['Encuesta','registrado']
+            'elemento_null' => ['Encuesta','registrada']
 
         ];
     }
