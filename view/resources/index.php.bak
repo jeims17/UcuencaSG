@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UcuencaSG</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="registroEncuesta">
+		<table>
+			<tr>
+				<td><label>ID</label></td>
+				<td><label>Descripcion</label></td>
+				<td><label>Fecha</label></td>
+				<td><label>Acción</label></td>
+			</tr>
+			<?php include('adminstradorPrueba.php') ?>
+		</table>
+		<input type="submit" name="botonEnvio" style="width: 150px; height: 30px" value="Envio">		
+	</div>
+	</form>
+</body>
+</html>

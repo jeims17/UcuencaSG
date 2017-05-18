@@ -1,0 +1,139 @@
+/*Cabezera*/
+
+.navbar-header .navbar-brand .imgwrapper,
+.navbar-header .navbar-brand h2{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.imgwrapper{
+	background-color: #fff;
+	
+	border-radius: 50%;
+	border: 5px solid;
+	height: 104px;
+	margin-left: 20px;
+	overflow: hidden;
+	border-color: #fff firebrick firebrick #fff;
+	transform:rotate(45deg);
+	width: 104px;
+}
+
+.imgwrapper .img-responsive{
+	transform:rotate(-45deg);
+}
+
+header .navbar-header .navbar-brand{
+	transform: translateX(-50%);
+	left: 50%;
+	position: absolute;
+}
+
+.navbar-fixed-top{
+	/*background-color: #1E90FF;*/
+	background-color: firebrick;
+	height: 54px;
+}
+
+.navbar-collapse.collapse.in{
+	background-color: firebrick !important;
+}
+
+.navbar-collapse.collapse.in .dropdown-menu{
+	background-color: #fff !important;
+}
+
+header ul.navbar-nav > li{
+	background-color: firebrick;
+
+}
+
+header ul.navbar-nav > li:hover{
+	background-color: darkred;
+	border-bottom: 4px solid #1E90FF;
+}
+
+ul.navbar-nav a{
+	color: #fcfcfc !important;
+	font-size: 18px;
+}
+
+ul.navbar-nav #nav-li > a:hover{
+	color: #fff !important;
+}
+
+ul.navbar-right .dropdown-toggle{
+	color: #fcfcfc !important;
+}
+
+ul.navbar-right .dropdown-toggle:focus{
+	background-color: darkred !important;
+}
+
+.navbar-login
+{
+    margin: auto;
+    padding-bottom: 0px;
+    padding: 10px;
+    width: 250px;
+}
+
+.navbar-login-session
+{
+    margin: auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding: 10px;
+}
+
+.col-md-12 p{
+	text-align: center;
+}
+
+.icon-size
+{
+    font-size: 87px;
+}
+
+.container-fluid .breadcrumb{
+	margin-top: 5px;
+	padding-left: 50%;
+	background-color: #ffe8e8;
+}
+
+
+/*Report Section*/
+
+.report-section{
+	margin-top: 150px;
+}
+
+.report-section .panel-body .container-fluid{
+	width: 100%;
+}
+
+.custyle{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+
+/*Footer*/
+footer{
+   background-color: #424558;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+    text-align: center;
+    color: #CCC;
+}
+
+footer p {
+    padding: 10.5px;
+    margin: 0px;
+    line-height: 100%;
+}

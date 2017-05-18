@@ -1,0 +1,7 @@
+{
+  "server": "localhost",
+  "usuario": "root",
+  "clave_db": "1234",
+  "name": "mydb",
+  "puerto": 3306
+}
