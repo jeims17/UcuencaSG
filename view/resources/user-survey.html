@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UcuencaSG</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/user-survey.css">	
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+</head>
+<body>
+	<header>
+		
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+			
+		    <div class="container-fluid" > 
+		        <div class="navbar-header">
+		            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span> 
+		            </button>
+		            <a target="_blank" class="navbar-brand" style="margin-top: -13px;">
+		            	<div class="imgwrapper">
+							<img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/17757618_1623377324344467_1853624857172948435_n.jpg?oh=30d10d485f36a6731b596e7735e9d366&oe=598398AE" class="img-responsive"></img>
+						</div>
+						<h2 style="margin-top: 5px; color:#fff">UcuencaSG</h2>
+					</a>
+		        </div>
+		        <div class="collapse navbar-collapse">
+		            <ul class="nav navbar-nav">
+		                <li id="nav-li"><a href="user-page2.html" >Inicio</a></li>             
+		             </ul>
+		            <ul class="nav navbar-nav navbar-right">
+		                <li class="dropdown">
+		                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		                        <strong>Cuenta</strong>
+		                        <span class="glyphicon glyphicon-chevron-down"></span>
+		                    </a>
+		                    <ul class="dropdown-menu">
+		                        <li>
+		                            <div class="navbar-login">
+		                                <div class="row">
+		                                    <div class="col-md-12">
+		                                        <p class="text-left"><strong>Nombre Apellido</strong></p>
+		                                        <p class="text-left small">correoElectronico@email.com</p>                       
+		                                    </div>
+		                                </div>
+		                            </div>
+		                        </li>
+		                        <li class="divider"></li>
+		                        <li>
+		                            <div class="navbar-login navbar-login-session">
+		                                <div class="row">
+		                                    <div class="col-md-12">
+		                                        <p>
+		                                            <a href="#" class="btn btn-danger btn-block">Cerrar Sesion</a>
+		                                        </p>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                        </li>
+		                    </ul>
+		                </li>
+		            </ul>
+		        </div>
+		    </div>
+		    <div class="container-fluid">
+				<ol class="breadcrumb"  >
+					<li><a href="user-page2.html">Inicio</a></li>
+					<li class="active">Llenar Encuesta</li>					
+				</ol>
+			</div>
+		</div>	
+	</header>
+
+	<section class="survey-section">
+		<h2 style="margin-left: 12%;">Título de la Encuesta</h2>
+		<div class="progress" style="width: 75%; margin: auto; margin-top: 35px;">
+		  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+		    0%
+		  </div>
+		</div>
+
+		<div class="container-fluid">
+			<div id="Encuesta" class="carousel slide" data-interval="false" data-wrap="false">
+
+				<!-- Carousel items -->
+				<div class="carousel-inner">
+					<div class="active item"> <!--Contenedor de la pregunta -->
+						<form> <!--Aquí comienza la pregunta -->
+							<fieldset class="form-group">
+								<legend>Pregunta 1</legend>
+								<div class="radio">  <!--Opcion1 -->
+									<label>
+										<input type="radio" name="optionRadio" id="optionRadio1" value="option1">
+										Option1
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="optionRadio" id="optionRadio2" value="option2">
+										Option2
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="optionRadio" id="optionRadio3" value="option3">
+										Option3
+									</label>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+					<div class="item">
+						<form>
+							<fieldset class="form-group">
+								<legend>Pregunta 2</legend>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" name="optionCheckbox" id="optionCheckbox1" value="">
+										Option 1
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" name="optionCheckbox" id="optionCheckbox2" value="">
+										Option 2
+									</label>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+					<div class="item">
+						<form>
+							<fieldset class="form-group">
+								<legend>Pregunta 3</legend>
+								<input type="text" name="optionText" id="optionText1" class="form-control" placeholder="">
+							</fieldset>
+						</form>
+					</div>
+				</div>
+
+			</div>
+			<!-- Carousel nav -->
+			<a role="button" id="prev" class="btn btn-primary carousel-control left" href="#Encuesta">Anterior</a>
+			<a role="button" id="next" class="btn btn-primary carousel-control right" href="#Encuesta" >Siguiente</a>
+		</div>
+
+  
+	</section>
+
+	<footer>
+		<p>© 2017<a style="color:#0a93a6; 
+		text-decoration:none;" href="#"> Alulema, Arévalo, Macías & Montesdeoca</a>, All rights reserved 2016-2017.</p>
+	</footer>
+
+
+
+	<script>
+		index=0;
+		limit =0;
+
+		function selectRadio() {
+			return $(".form-group input[name='optionRadio']").is(':checked');
+		}
+
+	    $(".left").click(function(){
+	    	$("#Encuesta").carousel("prev");
+	    });
+
+	    $(".right").click(function(){
+	    	if (selectRadio()) {
+	    		$("#Encuesta").carousel("next");
+	    	}else{
+	    		alert('Debe seleccionar al menos una respuesta');
+	    	}	        
+	    });
+
+
+	</script>
+
+	<script>
+	    $(document).ready(function(){
+	        $(".dropdown-toggle").dropdown();
+	    });
+ 	 </script>
+</body>
+</html>

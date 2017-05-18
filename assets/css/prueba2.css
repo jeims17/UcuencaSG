@@ -1,0 +1,55 @@
+
+/*Formulario Carousel*/
+
+#Encuesta{
+  height: 250px;
+}
+
+#Encuesta .carousel-inner .item form{
+  margin: auto;
+  padding: 4em;
+}
+
+#Encuesta .item .form-group{
+  margin: auto;
+  width: 80%;
+}
+
+#Encuesta .item .form-group legend{
+  
+}
+
+#Encuesta .item .form-group .radio,
+#Encuesta .item .form-group .checkbox,
+#Encuesta .item .form-group .form-control{
+  margin-left: 20px;
+  width: 80%;
+}
+
+/*Botones Carousel*/
+
+.btn-primary{
+  margin-top: 20px;
+  height: 40px;
+  position: relative;
+  bottom: 0;
+  background-color:#00008B;
+  font-size: 17px;
+}
+
+.carousel-control:hover{
+  background-color: crimson;
+}
+
+#prev{
+  float: left;
+  margin-left: 32%;
+}
+
+#next{
+  float: right;
+  margin-right: 32%;
+}
+
+
+
