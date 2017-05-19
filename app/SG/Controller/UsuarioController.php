@@ -1,6 +1,6 @@
 <?php
 use vista\Vista;
-use app\SG\model\Usuario;
+use app\SG\Model\Usuario;
 
 	class UsuarioController {
 
