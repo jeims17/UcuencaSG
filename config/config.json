@@ -1,7 +1,7 @@
 {
   "server": "localhost",
   "usuario": "root",
-  "clave_db": "",
+  "clave_db": "admin",
   "name": "mydb",
   "puerto": 3306
 }
